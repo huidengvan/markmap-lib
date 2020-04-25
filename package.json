@@ -1,8 +1,8 @@
 {
-  "name": "markmap-lib",
+  "name": "markmap-lib2",
   "version": "0.6.1",
   "description": "Visualize your Markdown as mindmaps with Markmap",
-  "author": "Gerald <i@gerald.top>",
+  "author": "Huidengvan <huidengvan@gmail.com>",
   "license": "MIT",
   "bin": {
     "markmap": "bin/cli.js"
@@ -68,5 +68,5 @@
     "open": "^7.0.3",
     "remarkable": "^2.0.0"
   },
-  "repository": "git@github.com:gera2ld/markmap-lib.git"
+  "repository": "git@github.com:huidengvan/markmap-lib.git"
 }
