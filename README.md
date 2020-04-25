@@ -1,3 +1,10 @@
+## Clone this repo
+## Then build and run:
+- npm install
+- npm run-script build
+- node bin/cli.js mytest.md
+
+
 # markmap-lib
 
 ![NPM](https://img.shields.io/npm/v/markmap-lib.svg)
