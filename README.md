@@ -4,6 +4,11 @@
 - npm run-script build
 - node bin/cli.js mytest.md
 
+## To run it:
+```sh
+  npm install markmap-lib2
+  npx markmap-lib2 note.md
+ ```
 
 # markmap-lib
 
