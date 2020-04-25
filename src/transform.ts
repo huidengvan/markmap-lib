@@ -2,7 +2,12 @@ import { Remarkable } from 'remarkable';
 import { INode } from './types';
 import { wrapStyle, escapeHtml, wrapHtml, htmlOpen, htmlClose } from './util';
 
-const md = new Remarkable();
+
+const md = new Remarkable("full", {
+  html: false,
+  maxNesting: 100
+});
+
 md.block.ruler.enable([
   'deflist',
 ]);
